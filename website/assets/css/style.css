@@ -1,3 +1,22 @@
-body{
+body {
     background: #BDBDBD;
 }
+
+/* .BoxHead {
+    display: flex;
+    margin: 0 auto;
+    justify-content:center;
+} 
+
+.Headers{
+    z-index: 1;
+} */
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/website/assets/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
