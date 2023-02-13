@@ -9,25 +9,25 @@ body {
     display: flex;
     margin: 0 auto;
     justify-content:center;
-} 
+}
 */
 .col-12 text-center{
     z-index: 1;
-} 
+}
 .BgImageTag {
   z-index: -1;
   width: 100%;
   display: flex;
 }
 
-.masthead {
+/* .masthead {
     height: 100vh;
     min-height: 500px;
     background-image: url('/website/assets/img/bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+  } */
   #BgJPG{
     background-size: cover;
     background-position: center;
@@ -45,8 +45,8 @@ body {
   }
 
   #MrWhite {
-    height: 30%;
-    width: 30%;
+    height: 35%;
+    width: 35%;
     align-items: center;
     padding: 20px;
   }
@@ -54,3 +54,34 @@ body {
     z-index: 0;
   }
 
+/* Container holding the image and the text */
+.TagImage {
+  position: relative;
+  text-align: center;
+  
+}
+
+
+/* Centered text */
+.centered1 {
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -190%);
+  text-align: center;
+  
+}
+.centered2 {
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -110%);
+  text-align: center;
+}
+#Tag1{
+  font-size: 110px;
+}
