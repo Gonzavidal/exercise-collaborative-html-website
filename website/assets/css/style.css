@@ -50,6 +50,12 @@ body {
     align-items: center;
     padding: 20px;
   }
+  #ServPic {
+    height: 35%;
+    width: 35%;
+    align-items: center;
+    padding: 20px;
+  }
   #Fondo {
     z-index: 0;
   }
@@ -69,7 +75,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -190%);
+  transform: translate(-50%, -150%);
   text-align: center;
   
 }
@@ -79,9 +85,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -110%);
+  transform: translate(-50%, -90%);
   text-align: center;
 }
 #Tag1{
-  font-size: 110px;
+  font-size: 9vw;
+}
+#Tag2{
+  font-size: 4vw;
 }
